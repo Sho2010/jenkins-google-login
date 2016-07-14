@@ -45,7 +45,7 @@ $ docker build -t jenkins-gl .
 docker run -d \
            -p 8080:8080 -p 50000:50000 \
            -e GOOGLE_APP_CLIENT_ID="YOUR_CLIENT_ID" \
-           -e GOOGLE_APP_SERCRET="YOUR_SECRET" \
+           -e GOOGLE_APP_SECRET="YOUR_SECRET" \
            -e GOOGLE_ACCOUNT_DOMAIN="YOUR_DOMAIN" \
            jenkins-gl
 ~~~
