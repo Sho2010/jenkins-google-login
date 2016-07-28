@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.13
+FROM jenkinsci/jenkins:2.15
 
 MAINTAINER Sho2010 "sho20100@gmail.com"
 
